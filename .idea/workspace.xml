@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80872539-38e2-49cf-be75-3f15ac6081de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week01/homeWork01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week01/homeWork01/maoyan01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week01/testDataFile/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week01/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week01/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <recent name="D:\user\pys\Python-002" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.maoyan02">
     <configuration name="maoyan01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-002" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,8 +66,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="maoyan02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-002" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week01/homeWork02/homeWork02/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week01/homeWork02/homeWork02/spiders/maoyan02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.maoyan02" />
         <item itemvalue="Python.maoyan01" />
       </list>
     </recent_temporary>
@@ -94,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595735206907</updated>
-      <workItem from="1595735208307" duration="16383000" />
+      <workItem from="1595735208307" duration="26274000" />
     </task>
     <servers />
   </component>
@@ -110,22 +133,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595756507972" />
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1595756514096">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1595766466382">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595756514096" />
-    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1595756514095">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595766466382" />
+    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1595766466382">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595756514095" />
-    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1595756514095">
+    <state width="1877" height="277" key="GridCell.Tab.0.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595766466382" />
+    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1595766466382">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595756514095" />
-    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1595756514095">
+    <state width="1877" height="277" key="GridCell.Tab.0.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595766466382" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1595766466382">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595756514095" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595766466382" />
     <state width="1877" height="342" key="GridCell.Tab.1.bottom" timestamp="1595753706178">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -148,6 +171,7 @@
     <state x="461" y="167" key="SettingsEditor/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595736072934" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_002$maoyan02.coverage" NAME="maoyan02 Coverage Results" MODIFIED="1595766459720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week01/homeWork02/homeWork02/spiders" />
     <SUITE FILE_PATH="coverage/Python_002$maoyan01.coverage" NAME="maoyan01 Coverage Results" MODIFIED="1595756514088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week01/homeWork01" />
   </component>
 </project>
