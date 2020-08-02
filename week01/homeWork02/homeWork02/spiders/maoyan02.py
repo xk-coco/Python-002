@@ -21,9 +21,6 @@ class Maoyan02Spider(scrapy.Spider):
     def start_requests(self):
         yield scrapy.Request(url=self.start_urls[0], callback=self.parse)
 
-        # 使用本地文件测试
-        # yield scrapy.Request(url=self.start_urls[2], callback=self.parse2)
-
     def parse(self, response):
         # 打印网页内容
         # print(response.url)
@@ -40,8 +37,9 @@ class Maoyan02Spider(scrapy.Spider):
 
             yield scrapy.Request(url=f"https://maoyan.com{movie_link.extract_first()}", callback=self.parse2)
 
-        # 使用本地文件测试
-        # yield scrapy.Request(url=self.start_urls[2], callback=self.parse2)
+        # 使用本地文件测试，注意：第二个parse2没有生效的原因是域名被限制访问了。scrapy会根据allow_domain进行过滤。
+        # 此时，需要加入dont_filter=True使其不被过滤
+        # yield scrapy.Request(url=self.start_urls[2], callback=self.parse2, dont_filter=True)
 
     def parse2(self, response):
         # 打印网页内容

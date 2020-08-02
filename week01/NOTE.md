@@ -5,6 +5,8 @@
 
 1、在parse函数中使用yield调用parse2会查找不到对应的内容，把parse2的调用放在start_requests却可以正常读取到，麻烦抽时间帮忙看下代码，代码已上传到作业下面，多谢了！
 
+-->已解决，原因：第二个parse2没有生效的原因是域名被限制访问了。scrapy会根据allow_domain进行过滤。
+
 2、使用scrapy框架时，我在开头加入了如下代码：
 `import sys
 sys.path.append("D:\\user\\pys\\Python-002\\")

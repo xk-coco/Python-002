@@ -2,9 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80872539-38e2-49cf-be75-3f15ac6081de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week01/testDataFile/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/customExceptionClass/CustomExceptionClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/customExceptionClass/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/homeWork01/homeWork01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/homeWork01/homeWork01/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/homeWork01/homeWork01/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/homeWork01/homeWork01/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/homeWork01/homeWork01/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/homeWork01/homeWork01/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/homeWork01/homeWork01/spiders/week2maoyan01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/homeWork01/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/005955214d5b3e50c910d7a511b0cb571445301.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/005955214d5b3e50c910d7a511b0cb571445301_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/0355f74de087b699b85b7daa3d7881ec365712.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/0d72bbc2646b81529f0c92b7cdd001e21072404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/14f9018b371d94dd812772704613babd475457.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/14f9018b371d94dd812772704613babd475457_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/1a7fa631ad461a6726637d89632681c5415004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/1a7fa631ad461a6726637d89632681c5415004_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/22857bface4d3e8586c8f45858d4fa92662013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/22857bface4d3e8586c8f45858d4fa92662013_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/3a2709ccdccf60733ca335f512952a11208033.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/3a2709ccdccf60733ca335f512952a11208033_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/3cd2a9b7dc179531d20d27a5fd686e783787.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/4456ee7276eeee6dbd437743735caa09114795.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/4456ee7276eeee6dbd437743735caa09114795_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/4cc8fa5631ce31ff577b6c2a70463165986724.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/4cc8fa5631ce31ff577b6c2a70463165986724_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/4ea68a0de8949d99fd7ff426b84d3c381761878.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/4ea68a0de8949d99fd7ff426b84d3c381761878_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/508056769092059fe43a611b949f27d14863831.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/508056769092059fe43a611b949f27d14863831_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/6cc01ad7cb5dc1c80860ef937e46fa2933816.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/6cc01ad7cb5dc1c80860ef937e46fa2933816_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/71fba05fbe4912cb70d27b87c3c856393364925.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/71fba05fbe4912cb70d27b87c3c856393364925_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/7b437e3a0d08d10e374ddc34f71b88fe3379132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/7b437e3a0d08d10e374ddc34f71b88fe3379132_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/7dd82a16316ab32c8359debdb04396ef2897.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/805f605d5cf1b1a02a4e3a5e29df003b8376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/84715f4b8f6b415faba9ef96ec5962fb488389.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/84715f4b8f6b415faba9ef96ec5962fb488389_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/913ab2bb77e596faac6e5f5e3831c8a9255571.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/91fbd3b7a8a4304f0b40dbac0139e483170865.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/91fbd3b7a8a4304f0b40dbac0139e483170865_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/9316c3269e405f64cbb6c3e1d553a9b3527095.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/9316c3269e405f64cbb6c3e1d553a9b3527095_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/94138dc0290a74b35786b6e3b8ece8607940668.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/94138dc0290a74b35786b6e3b8ece8607940668_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/9a0cc541dba6851c92143f0cc0d97bbe270276.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/9a0cc541dba6851c92143f0cc0d97bbe270276_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/9c79f4791bff2f85f1fd2a3ab09bc8e9358164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/9c79f4791bff2f85f1fd2a3ab09bc8e9358164_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/a48ac62bd6f10b9bf94aebc2f19d24021727296.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/a5f53fc1a2089eb17a5d2d7aea40e8b2277239.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/a5f53fc1a2089eb17a5d2d7aea40e8b2277239_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/a_002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/ce48cf62a8968b32289fc15eb749fafd819957.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/ce48cf62a8968b32289fc15eb749fafd819957_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/d28b729ffe72353a72d1e7ef8a9b90591544978.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/e54374ccf134d1f7b2c5b075a74fca525326.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/e5daa8748733820faab91102bd0bc4507730353.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/e96758adb4b03fd3302cb63fe8f63bd92262906.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/e96758adb4b03fd3302cb63fe8f63bd92262906_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/ecca4f0b95340b2c57006a1bace4c3f91386100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/ecca4f0b95340b2c57006a1bace4c3f91386100_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/efb0a5e3989f45c4f3e22108bcc27ed71037307.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/efb0a5e3989f45c4f3e22108bcc27ed71037307_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/f64465a28c26a576837f06ccf04b6a973008156.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/f64465a28c26a576837f06ccf04b6a973008156_002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/hm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/loading_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/movie-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/movie-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/owl_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/stat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/testDataFile/maoyanshowType3_files/web.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week02/week2StudyNote.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installPackageCommand" beforeDir="false" afterPath="$PROJECT_DIR$/installPackageCommand" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week01/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week01/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week01/homeWork02/homeWork02/spiders/maoyan02.py" beforeDir="false" afterPath="$PROJECT_DIR$/week01/homeWork02/homeWork02/spiders/maoyan02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week01/homeWork02/homework2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/week01/homeWork02/homework2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week02/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week02/NOTE.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +116,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -43,7 +129,7 @@
       <recent name="D:\user\pys\Python-002" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.maoyan02">
+  <component name="RunManager" selected="Python.week2maoyan01">
     <configuration name="maoyan01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-002" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,8 +174,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="week2maoyan01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-002" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week02/homeWork01/homeWork01/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week02/homeWork01/homeWork01/spiders/week2maoyan01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.week2maoyan01" />
         <item itemvalue="Python.maoyan02" />
         <item itemvalue="Python.maoyan01" />
       </list>
@@ -117,12 +226,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595735206907</updated>
-      <workItem from="1595735208307" duration="26274000" />
+      <workItem from="1595735208307" duration="29061000" />
+      <workItem from="1596252785949" duration="611000" />
+      <workItem from="1596364413464" duration="14377000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="652" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595736237879">
@@ -133,22 +247,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595756507972" />
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1595766466382">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1596370019970">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595766466382" />
-    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1595766466382">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596370019970" />
+    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1596370019969">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595766466382" />
-    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1595766466382">
+    <state width="1877" height="277" key="GridCell.Tab.0.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596370019969" />
+    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1596370019969">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595766466382" />
-    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1595766466382">
+    <state width="1877" height="277" key="GridCell.Tab.0.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596370019969" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1596370019969">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1595766466382" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1596370019969" />
     <state width="1877" height="342" key="GridCell.Tab.1.bottom" timestamp="1595753706178">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -172,6 +286,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_002$maoyan02.coverage" NAME="maoyan02 Coverage Results" MODIFIED="1595766459720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week01/homeWork02/homeWork02/spiders" />
+    <SUITE FILE_PATH="coverage/Python_002$week2maoyan01.coverage" NAME="week2maoyan01 Coverage Results" MODIFIED="1596370016637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week02/homeWork01/homeWork01/spiders" />
     <SUITE FILE_PATH="coverage/Python_002$maoyan01.coverage" NAME="maoyan01 Coverage Results" MODIFIED="1595756514088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week01/homeWork01" />
   </component>
 </project>
