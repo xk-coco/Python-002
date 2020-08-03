@@ -5,6 +5,14 @@
 
 from scrapy import signals
 
+from collections import defaultdict
+from urllib.parse import urlparse
+from scrapy import signals
+from scrapy.downloadermiddlewares.httpproxy import HttpProxyMiddleware
+import random
+from scrapy.exceptions import NotConfigured
+from week02.customExceptionClass.CustomExceptionClass import RequestsError
+
 # useful for handling different item types with a single interface
 from itemadapter import is_item, ItemAdapter
 
@@ -101,3 +109,46 @@ class Homework01DownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+class RandomHttpProxyMiddleware(HttpProxyMiddleware):
+    def __init__(self, auth_encoding='utf-8', proxy_list=None):
+        self.proxies = defaultdict(list)
+        # print(self.proxies)
+        for proxy in proxy_list:
+            # print(proxy)
+            parse = urlparse(proxy)
+            # print(parse)
+            self.proxies[parse.scheme].append(proxy)
+        print(f"从settings.py文件中获取到的代理ip映射对：{self.proxies}")
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        if not crawler.settings.get('HTTP_PROXY_LIST'):
+            raise NotConfigured
+        http_proxy_list = crawler.settings.get('HTTP_PROXY_LIST')
+        auth_encoding = crawler.settings.get('HTTPPROXY_AUTH_ENCODING', 'utf-8')
+        return cls(auth_encoding, http_proxy_list)
+
+    def process_request(self, request, spider):
+        # ignore if proxy is already set
+        # print("开始运行自定义下载器")
+        if 'proxy' in request.meta:
+            if request.meta['proxy'] is None:
+                # print(f"request.meta['proxy']是：{request.meta['proxy']}")
+                return
+            # extract credentials if present
+            creds, proxy_url = self._get_proxy(request.meta['proxy'], '')
+            request.meta['proxy'] = proxy_url
+            if creds and not request.headers.get('Proxy-Authorization'):
+                request.headers['Proxy-Authorization'] = b'Basic ' + creds
+            return
+        elif not self.proxies:
+            return
+
+        self._set_proxy(request, 'http')
+
+    def _set_proxy(self, request, scheme):
+        proxy = random.choice(self.proxies[scheme])
+        print(f"随机选择的http代理ip地址：{proxy}")
+        request.meta['proxy'] = proxy

@@ -22,29 +22,39 @@ db_info = {
 
 
 class Homework01Pipeline:
-    def process_item(self, item, spider):
+
+    def __init__(self, mysqldb):
+        self.host = mysqldb['host']
+        self.port = mysqldb['port']
+        self.user = mysqldb['user']
+        self.password = mysqldb['password']
+        self.db = mysqldb['db']
+        # print(self.host)
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        mysqldb = crawler.settings.get('DB_INFO')
+        # print(mysqldb)
+        return cls(mysqldb)
+
+    def open_spider(self, spider):
         # 建立连接
         try:
-            connection = pymysql.connect(host=db_info['host'],
-                                         port=db_info['port'],
-                                         user=db_info['user'],
-                                         password=db_info['password'],
-                                         db=db_info['db'],
-                                         charset=db_info['charset'])
+            self.connection = pymysql.connect(
+                host=self.host,
+                port=self.port,
+                user=self.user,
+                password=self.password,
+                db=self.db
+            )
             print("数据库连接成功")
         except DbConnectionError as e:
             print(e)
 
+    def close_spider(self, spider):
+        # 关闭连接之前先查询一次数据库
         try:
-            # with connection.cursor() as cursor:
-            #     sql = "insert into `movieinfo` (`MOVIENAME`,`MOVIETYPE`,`RELEASETIME`) values (%s,%s,%s)"
-            #     cursor.execute(sql, (item['movie_name'], item['movie_type'], item['movie_release_time']))
-            #
-            # # connection is not autocommit by default. So you must commit to save your changes.
-            # connection.commit()
-            # print("insert写入成功")
-
-            with connection.cursor() as cursor:
+            with self.connection.cursor() as cursor:
                 sql = "select `ID`,`MOVIENAME`,`MOVIETYPE`,`RELEASETIME` from `movieinfo`"
                 result = cursor.execute(sql)
                 print(result)
@@ -52,5 +62,19 @@ class Homework01Pipeline:
         except DbConnectionError as e:
             print(e)
         finally:
-            connection.close()
+            self.connection.close()
+            print("数据库已关闭")
+
+    def process_item(self, item, spider):
+
+        try:
+            with self.connection.cursor() as cursor:
+                sql = "insert into `movieinfo` (`MOVIENAME`,`MOVIETYPE`,`RELEASETIME`) values (%s,%s,%s)"
+                cursor.execute(sql, (item['movie_name'], item['movie_type'], item['movie_release_time']))
+
+            # connection is not autocommit by default. So you must commit to save your changes.
+            self.connection.commit()
+            print("insert写入成功")
+        except DbConnectionError as e:
+            print(e)
         return item

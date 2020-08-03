@@ -12,3 +12,14 @@ class DbConnectionError(Exception):
 
     def __str__(self):
         return self._info
+
+
+class RequestsError(Exception):
+    """先当固定的用法记着"""
+
+    def __init__(self, info):
+        super(RequestsError, self).__init__(info)
+        self._info = info
+
+    def __str__(self):
+        return self._info

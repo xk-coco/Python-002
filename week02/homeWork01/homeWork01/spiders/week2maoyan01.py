@@ -16,7 +16,7 @@ class Week2maoyan01Spider(scrapy.Spider):
                   'file:///D:/user/pys/Python-002/week02/testDataFile/maoyanshowType3.html']
 
     def start_requests(self):
-        yield scrapy.Request(url=self.start_urls[1], callback=self.parse)
+        yield scrapy.Request(url=self.start_urls[0], callback=self.parse)
 
     def parse(self, response):
         # 通过XPath获取电影属性
@@ -25,8 +25,7 @@ class Week2maoyan01Spider(scrapy.Spider):
         for movie_info in movie_urls:
             # span页签中class有的使用的是"name"，有的使用的是"name noscore"，故使用contains
             movie_name = movie_info.xpath("./div/span[contains(@class,'name ')]/text()")
-            # print(f"电影链接（xpath对象）:{movie_name}")
-            # print(f"电影名称:{movie_name.extract_first()}")
+            print(f"电影名称:{movie_name.extract_first()}")
             movie_info_item['movie_name'] = movie_name.extract_first()
             movie_type = movie_info.xpath("./div[contains(@class,'movie-hover-title')]/text()")
             # 不能使用normalize-space，经过查资料，该函数对单个字符串有效

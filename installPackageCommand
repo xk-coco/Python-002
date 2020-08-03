@@ -8,3 +8,6 @@ pip install -i https://mirrors.aliyun.com/pypi/simple/ pandas --trusted-host htt
 pip install -i https://mirrors.aliyun.com/pypi/simple/ scrapy --trusted-host https://mirrors.aliyun.com/pypi/simple/
 pip install -i https://mirrors.aliyun.com/pypi/simple/ pretty_errors --trusted-host https://mirrors.aliyun.com/pypi/simple/
 pip install -i https://mirrors.aliyun.com/pypi/simple/ PyMySQL --trusted-host https://mirrors.aliyun.com/pypi/simple/
+pip install -i https://mirrors.aliyun.com/pypi/simple/ selenium --trusted-host https://mirrors.aliyun.com/pypi/simple/
+
+
